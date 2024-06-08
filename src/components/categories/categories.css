@@ -1,0 +1,19 @@
+.categories-card{
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  /* border: 2px solid black; */
+  margin-top: 5rem;
+}
+.categories-card img{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.categories-card h2{
+  font-size: 18px;
+  cursor: pointer;
+}

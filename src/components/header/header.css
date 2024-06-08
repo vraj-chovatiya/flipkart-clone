@@ -1,0 +1,62 @@
+.header-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 6px;
+    /* shadow: 0 10px 5px rgba(0, 0, 0, 0.1);  */
+}
+
+body {
+    padding-top: 60px;
+    /* Adjust the padding based on the height of your header */
+}
+
+.header-card .logo {
+    width: 150px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.header-card h2 {
+    font-size: 18px;
+}
+
+.header-card .login,
+.cart,
+.store,
+.setting {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.header-card .login h2,
+.cart h2,
+.store h2 {
+    /* border: 2px solid black; */
+    padding-left: 5px;
+}
+
+.header-card input[type=text] {
+    width: 750px;
+    height: 40px;
+    background: #F0F5FF;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
